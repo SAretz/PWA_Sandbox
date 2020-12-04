@@ -1,19 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a3f7557954ae5101f33",
-    "url": "/PWA_Sandbox/dist/css/app.fb0c6e1c.css"
+    "revision": "e75feef2ef5d2edbf966",
+    "url": "/PWA_Sandbox/dist/css/app.d40fc157.css"
   },
   {
-    "revision": "82b9c7a5a3f405032b1db71a25f67021",
-    "url": "/PWA_Sandbox/dist/img/logo.82b9c7a5.png"
-  },
-  {
-    "revision": "ddcbdc8b1c5be8909becfa9d8b8c513e",
+    "revision": "e23b62996b90a7c4bed65aa397028d94",
     "url": "/PWA_Sandbox/dist/index.html"
   },
   {
-    "revision": "6a3f7557954ae5101f33",
-    "url": "/PWA_Sandbox/dist/js/app.fb3bb961.js"
+    "revision": "e75feef2ef5d2edbf966",
+    "url": "/PWA_Sandbox/dist/js/app.fc8348d5.js"
   },
   {
     "revision": "e28954552014552c977f",

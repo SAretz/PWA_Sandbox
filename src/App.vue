@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    {{location.lat}} {{location.lon}}
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data: () => {
+    return {
+      location: {
+        lat: '',
+        lon: ''
+      }
+    };
+  },
+  mounted() {
+    console.log(navigator.geolocation.getCurrentPosition((location) => {
+      this.location.lat = location.coords.latitude;
+      this.location.lon = location.coords.longitude;
+    }));
   }
 }
 </script>
