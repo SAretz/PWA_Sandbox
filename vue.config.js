@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath: '/PWA_Sandbox/dist/',
   devServer: {
     https: true
   },

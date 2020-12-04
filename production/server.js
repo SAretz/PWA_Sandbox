@@ -12,11 +12,6 @@ var app = express();
 
 app.use(express.static('../dist'))
 
-app.get('/test', () => {
-    console.log('test')
-    return 1;
-});
-
 var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);
 
